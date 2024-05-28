@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE</title>
+    <link rel="website icon" type="png" href="/Images/logo.png">
+    <link href="\Bootstrap\bootstrap-5.3.2-dist\bootstrap-5.3.2-dist\css\bootstrap.min.css" rel="stylesheet">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-attachment: fixed;
+    height: auto;
+}
+.nav{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #fff;
+    font-size: 13px;
+}
+.card{
+   display: flexbox;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   background-color: #212121;
+}
+.card-text{
+    font-family:'Times New Roman', Times, serif;
+    /* background-color: #212121; */
+    color: aliceblue;
+    text-transform: capitalize;
+}
+li{
+    /* color: turquoise; */
+    transition: transform 1s;
+    
+}
+li:hover{
+    transform: translateY(-8px);
+}
+    
+
+
+
+</style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="\HTML\websites\H3K1.html" target="_self">HOME</a></li>
+                <li><a href="\HTML\websites\COFFEE.html" target="_self">COFFEE</a></li>
+                <li><a href="">ABOUT</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+        <img src="\Images\cold brew.jpg" class="card-img-top" alt="Cold Brew">
+        <div class="card-body">
+          <p class="card-text">Cold brew atau kopi seduh dingin adalah salah satu metode seduh kopi paling unik yang memberikan pengalaman ngopi yang tak kalah asyik! KOPI ternyata tak hanya nikmat diseduh panas, namun sedap pula saat disajikan dingin.</p>
+        </div>
+      </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="\Images\americano.jpg" class="card-img-top" alt="Iced americano">
+        <div class="card-body">
+          <p class="card-text">iced americano merupakan kopi yang dibuat dengan menggunakan mesin espresso. Kopi yang sudah digiling, diolah menggunakan mesin espresso lalu disajikan dengan air dan es batu.</p>
+        </div>
+      </div>
+
+    </div> 
+
+    <script src="\Bootstrap\bootstrap-5.3.2-dist\bootstrap-5.3.2-dist\js\bootstrap.min.js"></script>
+
+</body>
+</html>

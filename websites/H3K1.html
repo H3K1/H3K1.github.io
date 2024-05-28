@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H3K1</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="website icon" type="png" href="/Images/logo.png">
+    <link href="\Bootstrap\bootstrap-5.3.2-dist\bootstrap-5.3.2-dist\css\bootstrap.min.css" rel="stylesheet">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/websites/Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-attachment: fixed;
+    height: auto;
+}
+.navbar{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #fff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 60%;
+
+}
+h1{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: capitalize;
+    text-shadow: 0 0 30px #999;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/websites/Images/kopi\ hitam.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.8s;
+}
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/websites/Images/kopi\ latte.jpg);
+}
+.card2{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/websites/Images/Kopi\ affogato.jpg);
+    
+}
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/websites/Images/Kopi\ cappucino.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 30px #999;
+    font-style: italic;
+    font-weight: 500;
+}
+h2{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.card p{
+    text-shadow:2px 2px 20px  black;
+}
+li{
+    color: turquoise;
+    transition: transform 1s;
+    
+}
+li:hover{
+    transform: translateY(-8px);
+}
+button{
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left:500px;
+    width: 250px;
+    height: 50px;
+    color: aliceblue;
+    border-style: solid;
+    text-transform: uppercase;
+    border-color: aliceblue;
+    transition: background-color 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+button:hover{
+    background-color:aliceblue;
+    color: black;
+    border-style: solid 2px;
+    border-color: black;
+}
+
+  
+</style>
+</head>
+
+<body class="container">
+    <!-- <div class="container"> -->
+        <div class="navbar">
+            <img src="\websites\Images\logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="\HTML\websites\H3K1.html" target="_self">HOME</a></li>
+                    <li><a href="\HTML\websites\COFFEE.html" target="_self">COFFEE</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Kedai kopi Heki</h1>
+                <h2>Sudahkah kamu mencoba varian kopi baru di tempat ini? Ayo, mari kita cicipi bersama!</h2>
+            </div>
+            <div class="col">
+                <a href="\websites\kopihitam.html" target="_self" style="text-decoration: none;">
+                <div class="card">
+                    <h5>Kopi Hitam</h5>
+                    <!-- <p>kopi Hitam</p> -->
+                    <p>IDR 20k</p>  
+                </div>
+                </a>
+                <a href="websites\kopilatte.html" target="_self" style="text-decoration: none;">
+                <div class="card card1">
+                    <h5>Kopi Latte</h5>
+                    <!-- <p>kopi Latte</p> -->
+                    <p>IDR 25K</p>
+                </div>
+                </a>
+                <a href="\websites\kopiaffogato.html" target="_self" style="text-decoration: none;">
+                <div class="card card2">
+                    <h5>Kopi Affogato</h5>
+                    <!-- <p>kopi Affogato</p> -->
+                    <p>IDR 30K</p>
+                </div>
+            </a>
+                <a href="\HTML\websites\kopikapucino.html" target="_self" style="text-decoration: none;">
+                <div class="card card3">
+                    <h5>Kopi Cappucino</h5>
+                    <!-- <p>kopi Cappucino</p> -->
+                    <p>IDR 35K</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a class="button">
+        <a href="\HTML\websites\COFFEE.html" target="_self" style="text-decoration: none;">
+        <button>telerusi kopi</button>
+        </a>
+    </a>
+    </div>
+    <script src="\Bootstrap\bootstrap-5.3.2-dist\bootstrap-5.3.2-dist\js\bootstrap.min.js"></script>
+</body>
+</html>

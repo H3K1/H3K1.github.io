@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+input{
+    max-width: 15%;
+    margin-top: 20px;
+}
+
+select{
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
